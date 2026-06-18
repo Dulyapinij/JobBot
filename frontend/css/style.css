@@ -1,0 +1,314 @@
+:root {
+    --bg-color: #f0f2f5;
+    --panel-bg: #ffffff;
+    --text-color: #1a1a1a;
+    --primary-orange: #ff6b00;
+    --secondary-yellow: #ffc107;
+    --border-color: #e0e0e0;
+    --chat-bg: #f9f9f9;
+    --user-bubble: #ff6b00;
+    --user-text: #ffffff;
+    --bot-bubble: #ffffff;
+}
+
+body.dark-theme {
+    --bg-color: #000000;
+    --panel-bg: #1e1e1e;
+    --text-color: #eeeeee;
+    --primary-orange: #ff8533;
+    --secondary-yellow: #ffcc33;
+    --border-color: #333333;
+    --chat-bg: #121212;
+    --user-bubble: #ff8533;
+    --user-text: #000000;
+    --bot-bubble: #2a2a2a;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.app-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.left-sidebar, .right-sidebar {
+    width: 280px;
+    flex-shrink: 0;
+    background: var(--panel-bg);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.left-sidebar {
+    gap: 15px;
+}
+
+.right-sidebar {
+    align-items: center;
+}
+
+.chat-container {
+    flex: 1;
+    background: var(--panel-bg);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+}
+
+.chat-header {
+    background: var(--primary-orange);
+    color: white; padding: 15px 20px;
+    text-align: center; margin: 0;
+}
+
+.chat-header h2 { 
+    margin: 0;
+    font-size: 1.3rem; }
+
+.chat-box {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    background: var(--chat-bg);
+    display: flex;
+    flex-direction: column; gap: 15px;
+}
+
+.message {
+    padding: 12px 16px;
+    border-radius: 12px;
+    line-height: 1.6;
+}
+
+.user-msg {
+    align-self: flex-end;
+    background: var(--user-bubble);
+    color: var(--user-text);
+    border-bottom-right-radius: 0;
+    max-width: 60%;
+}
+
+.bot-msg { 
+    align-self: flex-start; 
+    background: var(--bot-bubble); 
+    color: var(--text-color); 
+    border: 1px solid var(--border-color); 
+    border-bottom-left-radius: 0; 
+    white-space: pre-line; 
+    width: 60%;
+}
+
+.bot-msg b {
+    color: var(--primary-orange); 
+}
+
+.input-group {
+    padding: 15px;
+    background: var(--panel-bg);
+    display: flex; gap: 10px;
+    border-top: 1px solid var(--border-color);
+}
+
+.input-group input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px; 
+    background: var(--chat-bg);
+    color: var(--text-color);
+    outline: none;
+    font-size: 1rem;
+}
+
+.input-group input:focus {
+    border-color: var(--primary-orange);
+}
+
+.send-btn {
+    padding: 12px 25px;
+    background: var(--secondary-yellow);
+    color: #000;
+    font-weight: bold; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 1rem;
+}
+
+.send-btn:hover {
+    background: #e6b300;
+}
+
+.theme-btn { 
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    background: var(--chat-bg);
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.theme-btn:hover {
+    background: var(--border-color);
+}
+
+.right-sidebar h3 {
+    color: var(--primary-orange);
+    margin-top: 0;
+    text-align: center;
+}
+
+.upload-desc {
+    font-size: 0.9rem;
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.upload-card input[type="file"] {
+    border: 2px dashed var(--primary-orange);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+.upload-btn {
+    background: var(--primary-orange);
+    color: white;
+    padding: 12px;
+    border: none; 
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.upload-btn:hover {
+    background: #e65c00;
+}
+
+#uploadStatus {
+    text-align: center;
+    font-size: 0.95rem;
+    color: var(--primary-orange);
+    font-weight: bold;
+}
+
+details {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 3px 0;
+}
+
+summary {
+    font-weight: bold;
+    color: var(--primary-orange);
+    cursor: pointer;
+    outline: none;
+    padding: 3px 3px 0 3px;
+    margin: 0;
+}
+
+details[open] summary { 
+    border-bottom: 1px dashed var(--border-color); 
+    margin-bottom: 3px;
+    padding-bottom: 3px; 
+}
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-color);
+}
+
+.table-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--panel-bg);
+    font-size: 0.95rem;
+    text-align: left;
+    border: 2px solid var(--primary-orange); 
+}
+
+.table-wrapper thead tr {
+    background-color: var(--primary-orange);
+    color: #ffffff;
+}
+
+.table-wrapper th, .table-wrapper td {
+    padding: 5px 15px;
+    border: 1px solid var(--border-color); 
+}
+
+.table-wrapper th {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.table-wrapper tbody tr:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+body.dark-theme .table-wrapper tbody tr:nth-of-type(even) {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.table-wrapper tbody tr:last-of-type td {
+    border-bottom: none;
+}
+
+.bot-msg a {
+    color: var(--primary-orange);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.bot-msg a:hover {
+    color: var(--secondary-yellow);
+    text-decoration: underline;
+}
+
+summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}

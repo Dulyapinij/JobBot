@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMITL ComSci Job Bot Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-container">
+    
+    <div class="left-sidebar">
+        <h2>Settings</h2>
+        <div class="menu-item">
+            <label>Theme</label>
+            <button id="themeToggle" onclick="toggleTheme()" class="theme-btn">🌙 โหมดมืด (Dark Mode)</button>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>KMITL ComSci Job Bot</h2>
+        </div>
+        <div class="chat-box" id="chatBox">
+            <div class="message bot-msg"><b>Bot:</b> สวัสดีครับ! สอบถามเรื่องงาน หรืออัปโหลด Transcript เพื่อวิเคราะห์เกรดได้เลยครับ</div>
+        </div>
+        
+        <div class="input-group">
+            <input type="text" id="userInput" placeholder="พิมพ์คำถามที่นี่..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()" class="send-btn">ส่ง</button>
+        </div>
+    </div>
+
+    <div class="right-sidebar">
+        <h3>อัปโหลด Transcript</h3>
+        <p class="upload-desc">วิเคราะห์ทักษะจากเกรดของคุณ</p>
+        <div class="upload-card">
+            <input type="file" id="transcriptFile" accept=".pdf">
+            <button onclick="uploadTranscript()" class="upload-btn">วิเคราะห์ไฟล์</button>
+            <div id="uploadStatus"></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

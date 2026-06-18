@@ -1,0 +1,966 @@
+[
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "rag_chain",
+        "importPath": "services",
+        "description": "services",
+        "isExtraImport": true,
+        "detail": "services",
+        "documentation": {}
+    },
+    {
+        "label": "extract_courses_from_pdf",
+        "importPath": "services",
+        "description": "services",
+        "isExtraImport": true,
+        "detail": "services",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TextIO",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "pdfplumber",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfplumber",
+        "description": "pdfplumber",
+        "detail": "pdfplumber",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "KMITL_CS_COURSES",
+        "importPath": "data.curriculum",
+        "description": "data.curriculum",
+        "isExtraImport": true,
+        "detail": "data.curriculum",
+        "documentation": {}
+    },
+    {
+        "label": "CURRICULUM_KNOWLEDGE",
+        "importPath": "data.curriculum",
+        "description": "data.curriculum",
+        "isExtraImport": true,
+        "detail": "data.curriculum",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceEmbeddings",
+        "importPath": "langchain_community.embeddings",
+        "description": "langchain_community.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain_community.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "ArgumentParser",
+        "importPath": "argparse",
+        "description": "argparse",
+        "isExtraImport": true,
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "Container",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Container",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "pdfminer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfminer",
+        "description": "pdfminer",
+        "detail": "pdfminer",
+        "documentation": {}
+    },
+    {
+        "label": "PDFDocument",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFNoOutlines",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFXRefFallback",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFIOError",
+        "importPath": "pdfminer.pdfexceptions",
+        "description": "pdfminer.pdfexceptions",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfexceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PDFObjectNotFound",
+        "importPath": "pdfminer.pdfexceptions",
+        "description": "pdfminer.pdfexceptions",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfexceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PDFTypeError",
+        "importPath": "pdfminer.pdfexceptions",
+        "description": "pdfminer.pdfexceptions",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfexceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PDFValueError",
+        "importPath": "pdfminer.pdfexceptions",
+        "description": "pdfminer.pdfexceptions",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfexceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PDFValueError",
+        "importPath": "pdfminer.pdfexceptions",
+        "description": "pdfminer.pdfexceptions",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfexceptions",
+        "documentation": {}
+    },
+    {
+        "label": "PDFPage",
+        "importPath": "pdfminer.pdfpage",
+        "description": "pdfminer.pdfpage",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfpage",
+        "documentation": {}
+    },
+    {
+        "label": "PDFParser",
+        "importPath": "pdfminer.pdfparser",
+        "description": "pdfminer.pdfparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfparser",
+        "documentation": {}
+    },
+    {
+        "label": "PDFObjRef",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFStream",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "resolve1",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "stream_value",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "LIT",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "PSKeyword",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "PSLiteral",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "isnumber",
+        "importPath": "pdfminer.utils",
+        "description": "pdfminer.utils",
+        "isExtraImport": true,
+        "detail": "pdfminer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "AnyIO",
+        "importPath": "pdfminer.utils",
+        "description": "pdfminer.utils",
+        "isExtraImport": true,
+        "detail": "pdfminer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "pdfminer.high_level",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfminer.high_level",
+        "description": "pdfminer.high_level",
+        "detail": "pdfminer.high_level",
+        "documentation": {}
+    },
+    {
+        "label": "LAParams",
+        "importPath": "pdfminer.layout",
+        "description": "pdfminer.layout",
+        "isExtraImport": true,
+        "detail": "pdfminer.layout",
+        "documentation": {}
+    },
+    {
+        "label": "google.generativeai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "google.generativeai",
+        "description": "google.generativeai",
+        "detail": "google.generativeai",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeDriverManager",
+        "importPath": "webdriver_manager.chrome",
+        "description": "webdriver_manager.chrome",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.chrome",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeDriverManager",
+        "importPath": "webdriver_manager.chrome",
+        "description": "webdriver_manager.chrome",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.chrome",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "KMITL_CS_COURSES",
+        "kind": 5,
+        "importPath": "backend.data.curriculum",
+        "description": "backend.data.curriculum",
+        "peekOfCode": "KMITL_CS_COURSES = {\n    \"05506250\": {\"name\": \"LINEAR ALGEBRA FOR COMPUTER SCIENCE\", \"skills\": [\"Linear Algebra\", \"Matrix\", \"Mathematics\"]},\n    \"05506001\": {\"name\": \"DISCRETE MATHEMATICS\", \"skills\": [\"Logic\", \"Discrete Math\", \"Graphs\", \"Discrete Probability\"]},\n    \"05506002\": {\"name\": \"METHODS OF NUMERICAL COMPUTATION\", \"skills\": [\"Numerical Computation\", \"Taylor Series\", \"Curve Fitting\", \"Differential Equations\"]},\n    \"05506231\": {\"name\": \"STATISTICS AND PROBABILITY\", \"skills\": [\"Statistics\", \"Probability\", \"Machine Learning\", \"Hypothesis Testing\", \"Linear Regression\"]},\n    \"05506232\": {\"name\": \"MATHEMATICS FOR COMPUTER SCIENCE\", \"skills\": [\"Logic\", \"Number Theory\", \"Cryptography\", \"Optimization\"]},\n    \"05506233\": {\"name\": \"CALCULUS FOR COMPUTER SCIENCE\", \"skills\": [\"Calculus\", \"Derivatives\", \"Integration\", \"Differential Equations\", \"Vectors\"]},\n    \"05506015\": {\"name\": \"COMPUTER ETHICS: SOCIAL AND PROFESSIONAL ISSUES\", \"skills\": [\"Computer Ethics\", \"Intellectual Property\", \"Privacy\", \"Security Operations\"]},\n    \"05506005\": {\"name\": \"COMPUTER SCIENCE\", \"skills\": [\"Computer Architecture\", \"Data Communication\", \"Software Life Cycle\", \"Java\"]},\n    \"05506011\": {\"name\": \"HUMAN-COMPUTER INTERACTION\", \"skills\": [\"HCI\", \"GUI\", \"Multimedia Information System\", \"UI/UX\"]},",
+        "detail": "backend.data.curriculum",
+        "documentation": {}
+    },
+    {
+        "label": "CURRICULUM_KNOWLEDGE",
+        "kind": 5,
+        "importPath": "backend.data.curriculum",
+        "description": "backend.data.curriculum",
+        "peekOfCode": "CURRICULUM_KNOWLEDGE = [\n    f\"วิชา {code}: {info['name']} พัฒนาทักษะด้าน {', '.join(info['skills'])}\"\n    for code, info in KMITL_CS_COURSES.items()\n]",
+        "detail": "backend.data.curriculum",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app = FastAPI()\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"], \n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n@app.post(\"/api/upload_transcript\")\nasync def upload_transcript(file: UploadFile = File(...)):\n    try:",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "CourseGrade",
+        "kind": 6,
+        "importPath": "backend.models",
+        "description": "backend.models",
+        "peekOfCode": "class CourseGrade(BaseModel):\n    code: str\n    title: str\n    grade: str\nclass ChatRequest(BaseModel):\n    question: str\n    transcript_data: Optional[List[CourseGrade]] = []",
+        "detail": "backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "backend.models",
+        "description": "backend.models",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    question: str\n    transcript_data: Optional[List[CourseGrade]] = []",
+        "detail": "backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "setup_rag_chain",
+        "kind": 2,
+        "importPath": "backend.services",
+        "description": "backend.services",
+        "peekOfCode": "def setup_rag_chain():\n    print(\"กำลังเตรียมข้อมูล AI...\")\n    df = pd.read_csv(\"data/jobs_master_final.csv\")\n    df = df.dropna(subset=['Title', 'Description'])\n    df['Company'] = df['Company'].fillna(\"-\")\n    df['Location'] = df['Location'].fillna(\"-\")\n    df['Link'] = df['Link'].fillna(\"#\")\n    df['combined_text'] = (\n        \"Job Title: \" + df['Title'].astype(str) + \"\\n\" +\n        \"Company: \" + df['Company'].astype(str) + \"\\n\" +",
+        "detail": "backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "extract_courses_from_pdf",
+        "kind": 2,
+        "importPath": "backend.services",
+        "description": "backend.services",
+        "peekOfCode": "def extract_courses_from_pdf(file_bytes):\n    extracted_data = []\n    with pdfplumber.open(io.BytesIO(file_bytes)) as pdf:\n        for page in pdf.pages:\n            text = page.extract_text()\n            pattern = r'(\\d{8})\\s+(.*?)\\s+(\\d)\\s+([A-D][+]?|[FS]|W)'\n            matches = re.findall(pattern, text)\n            for m in matches:\n                code, title, credit, grade = m\n                course_info = KMITL_CS_COURSES.get(code, {\"name\": title.strip()})",
+        "detail": "backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "backend.services",
+        "description": "backend.services",
+        "peekOfCode": "api_key = os.getenv(\"GEMINI_API_KEY\")\ndef setup_rag_chain():\n    print(\"กำลังเตรียมข้อมูล AI...\")\n    df = pd.read_csv(\"data/jobs_master_final.csv\")\n    df = df.dropna(subset=['Title', 'Description'])\n    df['Company'] = df['Company'].fillna(\"-\")\n    df['Location'] = df['Location'].fillna(\"-\")\n    df['Link'] = df['Link'].fillna(\"#\")\n    df['combined_text'] = (\n        \"Job Title: \" + df['Title'].astype(str) + \"\\n\" +",
+        "detail": "backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "rag_chain",
+        "kind": 5,
+        "importPath": "backend.services",
+        "description": "backend.services",
+        "peekOfCode": "rag_chain = setup_rag_chain()\ndef extract_courses_from_pdf(file_bytes):\n    extracted_data = []\n    with pdfplumber.open(io.BytesIO(file_bytes)) as pdf:\n        for page in pdf.pages:\n            text = page.extract_text()\n            pattern = r'(\\d{8})\\s+(.*?)\\s+(\\d)\\s+([A-D][+]?|[FS]|W)'\n            matches = re.findall(pattern, text)\n            for m in matches:\n                code, title, credit, grade = m",
+        "detail": "backend.services",
+        "documentation": {}
+    },
+    {
+        "label": "escape",
+        "kind": 2,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "def escape(s: str | bytes) -> str:\n    us = str(s, \"latin-1\") if isinstance(s, bytes) else s\n    return ESC_PAT.sub(lambda m: f\"&#{ord(m.group(0))};\", us)\ndef dumpxml(out: TextIO, obj: object, codec: str | None = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return\n    if isinstance(obj, dict):\n        out.write(f'<dict size=\"{len(obj)}\">\\n')\n        for k, v in obj.items():",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpxml",
+        "kind": 2,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "def dumpxml(out: TextIO, obj: object, codec: str | None = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return\n    if isinstance(obj, dict):\n        out.write(f'<dict size=\"{len(obj)}\">\\n')\n        for k, v in obj.items():\n            out.write(f\"<key>{k}</key>\\n\")\n            out.write(\"<value>\")\n            dumpxml(out, v)",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumptrailers",
+        "kind": 2,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "def dumptrailers(\n    out: TextIO,\n    doc: PDFDocument,\n    show_fallback_xref: bool = False,\n) -> None:\n    for xref in doc.xrefs:\n        if not isinstance(xref, PDFXRefFallback) or show_fallback_xref:\n            out.write(\"<trailer>\\n\")\n            dumpxml(out, xref.get_trailer())\n            out.write(\"\\n</trailer>\\n\\n\")",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpallobjs",
+        "kind": 2,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "def dumpallobjs(\n    out: TextIO,\n    doc: PDFDocument,\n    codec: str | None = None,\n    show_fallback_xref: bool = False,\n) -> None:\n    visited = set()\n    out.write(\"<pdf>\")\n    for xref in doc.xrefs:\n        for objid in xref.get_objids():",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpoutline",
+        "kind": 2,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "def dumpoutline(\n    outfp: TextIO,\n    fname: str,\n    objids: Any,\n    pagenos: Container[int],\n    password: str = \"\",\n    dumpall: bool = False,\n    codec: str | None = None,\n    extractdir: str | None = None,\n) -> None:",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "extractembedded",
+        "kind": 2,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "def extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                f\"unable to process PDF: reference for {filename!r} is not a PDFStream\"\n            )\n            raise PDFValueError(error_msg)",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumppdf",
+        "kind": 2,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "def dumppdf(\n    outfp: TextIO,\n    fname: str,\n    objids: Iterable[int],\n    pagenos: Container[int],\n    password: str = \"\",\n    dumpall: bool = False,\n    codec: str | None = None,\n    extractdir: str | None = None,\n    show_fallback_xref: bool = False,",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "create_parser",
+        "kind": 2,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "def create_parser() -> ArgumentParser:\n    parser = ArgumentParser(description=__doc__, add_help=True)\n    parser.add_argument(\n        \"files\",\n        type=str,\n        default=None,\n        nargs=\"+\",\n        help=\"One or more paths to PDF files.\",\n    )\n    parser.add_argument(",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "def main(argv: list[str] | None = None) -> None:\n    parser = create_parser()\n    args = parser.parse_args(args=argv)\n    if args.debug:\n        logging.getLogger().setLevel(logging.DEBUG)\n    objids = [int(x) for x in args.objects.split(\",\")] if args.objects else []\n    if args.page_numbers:\n        pagenos = {x - 1 for x in args.page_numbers}\n    elif args.pagenos:\n        pagenos = {int(x) - 1 for x in args.pagenos.split(\",\")}",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nESC_PAT = re.compile(r'[\\000-\\037&<>()\"\\042\\047\\134\\177-\\377]')\ndef escape(s: str | bytes) -> str:\n    us = str(s, \"latin-1\") if isinstance(s, bytes) else s\n    return ESC_PAT.sub(lambda m: f\"&#{ord(m.group(0))};\", us)\ndef dumpxml(out: TextIO, obj: object, codec: str | None = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return\n    if isinstance(obj, dict):",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "ESC_PAT",
+        "kind": 5,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "ESC_PAT = re.compile(r'[\\000-\\037&<>()\"\\042\\047\\134\\177-\\377]')\ndef escape(s: str | bytes) -> str:\n    us = str(s, \"latin-1\") if isinstance(s, bytes) else s\n    return ESC_PAT.sub(lambda m: f\"&#{ord(m.group(0))};\", us)\ndef dumpxml(out: TextIO, obj: object, codec: str | None = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return\n    if isinstance(obj, dict):\n        out.write(f'<dict size=\"{len(obj)}\">\\n')",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "LITERAL_FILESPEC",
+        "kind": 5,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "LITERAL_FILESPEC = LIT(\"Filespec\")\nLITERAL_EMBEDDEDFILE = LIT(\"EmbeddedFile\")\ndef extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                f\"unable to process PDF: reference for {filename!r} is not a PDFStream\"",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "LITERAL_EMBEDDEDFILE",
+        "kind": 5,
+        "importPath": "env.bin.dumppdf",
+        "description": "env.bin.dumppdf",
+        "peekOfCode": "LITERAL_EMBEDDEDFILE = LIT(\"EmbeddedFile\")\ndef extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                f\"unable to process PDF: reference for {filename!r} is not a PDFStream\"\n            )",
+        "detail": "env.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "float_or_disabled",
+        "kind": 2,
+        "importPath": "env.bin.pdf2txt",
+        "description": "env.bin.pdf2txt",
+        "peekOfCode": "def float_or_disabled(x: str) -> float | None:\n    if x.lower().strip() == \"disabled\":\n        return None\n    try:\n        return float(x)\n    except ValueError as err:\n        raise argparse.ArgumentTypeError(f\"invalid float value: {x}\") from err\ndef extract_text(\n    files: Iterable[str] = [],\n    outfile: str = \"-\",",
+        "detail": "env.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text",
+        "kind": 2,
+        "importPath": "env.bin.pdf2txt",
+        "description": "env.bin.pdf2txt",
+        "peekOfCode": "def extract_text(\n    files: Iterable[str] = [],\n    outfile: str = \"-\",\n    laparams: LAParams | None = None,\n    output_type: str = \"text\",\n    codec: str = \"utf-8\",\n    strip_control: bool = False,\n    maxpages: int = 0,\n    page_numbers: Container[int] | None = None,\n    password: str = \"\",",
+        "detail": "env.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "create_parser",
+        "kind": 2,
+        "importPath": "env.bin.pdf2txt",
+        "description": "env.bin.pdf2txt",
+        "peekOfCode": "def create_parser() -> argparse.ArgumentParser:\n    parser = argparse.ArgumentParser(description=__doc__, add_help=True)\n    parser.add_argument(\n        \"files\",\n        type=str,\n        default=None,\n        nargs=\"+\",\n        help=\"One or more paths to PDF files.\",\n    )\n    parser.add_argument(",
+        "detail": "env.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "env.bin.pdf2txt",
+        "description": "env.bin.pdf2txt",
+        "peekOfCode": "def parse_args(args: list[str] | None) -> argparse.Namespace:\n    parsed_args = create_parser().parse_args(args=args)\n    # Propagate parsed layout parameters to LAParams object\n    if parsed_args.no_laparams:\n        parsed_args.laparams = None\n    else:\n        parsed_args.laparams = LAParams(\n            line_overlap=parsed_args.line_overlap,\n            char_margin=parsed_args.char_margin,\n            line_margin=parsed_args.line_margin,",
+        "detail": "env.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "env.bin.pdf2txt",
+        "description": "env.bin.pdf2txt",
+        "peekOfCode": "def main(args: list[str] | None = None) -> int:\n    parsed_args = parse_args(args)\n    extract_text(**vars(parsed_args))\n    return 0\nif __name__ == \"__main__\":\n    sys.exit(main())",
+        "detail": "env.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "OUTPUT_TYPES",
+        "kind": 5,
+        "importPath": "env.bin.pdf2txt",
+        "description": "env.bin.pdf2txt",
+        "peekOfCode": "OUTPUT_TYPES = ((\".htm\", \"html\"), (\".html\", \"html\"), (\".xml\", \"xml\"), (\".tag\", \"tag\"))\ndef float_or_disabled(x: str) -> float | None:\n    if x.lower().strip() == \"disabled\":\n        return None\n    try:\n        return float(x)\n    except ValueError as err:\n        raise argparse.ArgumentTypeError(f\"invalid float value: {x}\") from err\ndef extract_text(\n    files: Iterable[str] = [],",
+        "detail": "env.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_API_KEY",
+        "kind": 5,
+        "importPath": "check_model",
+        "description": "check_model",
+        "peekOfCode": "GOOGLE_API_KEY = \"AIzaSyArufpJJB7XfdNvxlro7popG5v2wS4kfuY\"\ngenai.configure(api_key=GOOGLE_API_KEY)\nprint(\"🔍 กำลังค้นหาโมเดลทั้งหมดที่ API Key ของคุณสามารถใช้งานได้...\")\nprint(\"-\" * 50)\ntry:\n    for m in genai.list_models():\n        if 'generateContent' in m.supported_generation_methods:\n            print(f\"✅ ใช้งานได้: {m.name}\")\nexcept Exception as e:\n    print(f\"❌ เกิดข้อผิดพลาด: {e}\")",
+        "detail": "check_model",
+        "documentation": {}
+    },
+    {
+        "label": "get_driver",
+        "kind": 2,
+        "importPath": "extraction",
+        "description": "extraction",
+        "peekOfCode": "def get_driver():\n    options = Options()\n    options.add_argument('--headless=new')\n    options.add_argument('--window-size=1920,1080')\n    options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36')\n    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)\ndf = pd.read_csv(\"jobs_phase1_final.csv\")\nprint(f\"พร้อมขุด JD และ Location สำหรับ {len(df)} งาน\")\ndf['Description'] = \"\"\ndf['Location'] = \"\"",
+        "detail": "extraction",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "extraction",
+        "description": "extraction",
+        "peekOfCode": "df = pd.read_csv(\"jobs_phase1_final.csv\")\nprint(f\"พร้อมขุด JD และ Location สำหรับ {len(df)} งาน\")\ndf['Description'] = \"\"\ndf['Location'] = \"\"\ndriver = get_driver()\ntry:\n    for index, row in df.iterrows():\n        print(f\"[{index + 1}/{len(df)}] ขุดข้อมูล: {row['Title'][:25]}...\", end=\"\", flush=True)\n        try:\n            driver.get(row['Link'])",
+        "detail": "extraction",
+        "documentation": {}
+    },
+    {
+        "label": "df['Description']",
+        "kind": 5,
+        "importPath": "extraction",
+        "description": "extraction",
+        "peekOfCode": "df['Description'] = \"\"\ndf['Location'] = \"\"\ndriver = get_driver()\ntry:\n    for index, row in df.iterrows():\n        print(f\"[{index + 1}/{len(df)}] ขุดข้อมูล: {row['Title'][:25]}...\", end=\"\", flush=True)\n        try:\n            driver.get(row['Link'])\n            wait = WebDriverWait(driver, 8)\n            desc = \"N/A\"",
+        "detail": "extraction",
+        "documentation": {}
+    },
+    {
+        "label": "df['Location']",
+        "kind": 5,
+        "importPath": "extraction",
+        "description": "extraction",
+        "peekOfCode": "df['Location'] = \"\"\ndriver = get_driver()\ntry:\n    for index, row in df.iterrows():\n        print(f\"[{index + 1}/{len(df)}] ขุดข้อมูล: {row['Title'][:25]}...\", end=\"\", flush=True)\n        try:\n            driver.get(row['Link'])\n            wait = WebDriverWait(driver, 8)\n            desc = \"N/A\"\n            loc = \"N/A\"",
+        "detail": "extraction",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "extraction",
+        "description": "extraction",
+        "peekOfCode": "driver = get_driver()\ntry:\n    for index, row in df.iterrows():\n        print(f\"[{index + 1}/{len(df)}] ขุดข้อมูล: {row['Title'][:25]}...\", end=\"\", flush=True)\n        try:\n            driver.get(row['Link'])\n            wait = WebDriverWait(driver, 8)\n            desc = \"N/A\"\n            loc = \"N/A\"\n            if \"jobsdb.com\" in row['Link']:",
+        "detail": "extraction",
+        "documentation": {}
+    },
+    {
+        "label": "get_driver",
+        "kind": 2,
+        "importPath": "scraper",
+        "description": "scraper",
+        "peekOfCode": "def get_driver():\n    options = Options()\n    options.add_argument('--headless=new') \n    options.add_argument('--window-size=1920,1080')\n    options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36')\n    return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)\ndef classify_job(title):\n    t = title.upper()\n    tags = []\n    if \"SCIENTIST\" in t: tags.append(\"Data Scientist\")",
+        "detail": "scraper",
+        "documentation": {}
+    },
+    {
+        "label": "classify_job",
+        "kind": 2,
+        "importPath": "scraper",
+        "description": "scraper",
+        "peekOfCode": "def classify_job(title):\n    t = title.upper()\n    tags = []\n    if \"SCIENTIST\" in t: tags.append(\"Data Scientist\")\n    if \"ANALYST\" in t or \"ANALYSIS\" in t: tags.append(\"Data Analyst\")\n    if \"ENGINEER\" in t and \"DATA\" in t: tags.append(\"Data Engineer\")\n    if \"SOFTWARE ENGINEER\" in t or \"DEVELOPER\" in t or \"PROGRAMMER\" in t: tags.append(\"Software Developer\")\n    if \"SYSTEM ANALYST\" in t or \"SA\" == t: tags.append(\"System Analyst\")\n    return \" & \".join(tags) if tags else \"IT Related\"\ndef scrape_jobsdb(keywords, target_pages=10):",
+        "detail": "scraper",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_jobsdb",
+        "kind": 2,
+        "importPath": "scraper",
+        "description": "scraper",
+        "peekOfCode": "def scrape_jobsdb(keywords, target_pages=10):\n    driver = get_driver()\n    results = []\n    seen_links = set()\n    for kw in keywords:\n        print(f\"\\n JobsDB: ขุดคีย์เวิร์ด [{kw}]\")\n        url = f\"https://th.jobsdb.com/th/search-jobs/{kw.replace(' ', '-')}-jobs?sort=createdAt\"\n        driver.get(url)\n        for page in range(1, target_pages + 1):\n            print(f\"  หน้า {page}...\", end=\"\", flush=True)",
+        "detail": "scraper",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_blognone",
+        "kind": 2,
+        "importPath": "scraper",
+        "description": "scraper",
+        "peekOfCode": "def scrape_blognone(max_pages=20):\n    driver = get_driver()\n    results = []\n    seen_links = set()\n    print(f\"\\nBlognone: เริ่มขุดแบบกวาดทุกหน้า (1-{max_pages})\")\n    for page in range(1, max_pages + 1):\n        url = f\"https://jobs.blognone.com/search?page={page}\"\n        print(f\" หน้า {page}...\", end=\"\", flush=True)\n        driver.get(url)\n        try:",
+        "detail": "scraper",
+        "documentation": {}
+    }
+]
